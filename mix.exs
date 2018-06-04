@@ -33,9 +33,9 @@ defmodule Arc.Storage.Manta.Mixfile do
 
   defp deps do
     [
-      {:arc,       "~> 0.6.0"},
+      {:arc,       "~> 0.8.0"},
       {:poison,    "~> 1.2 or ~> 2.0" },
-      {:calendar,  "~> 0.14.2"},
+      {:calendar,  "~> 0.12.2"},
       {:httpoison, "~> 0.7" },
       {:mock,      "~> 0.1.1", only: :test},
       {:ex_doc,    ">= 0.0.0", only: :dev}
